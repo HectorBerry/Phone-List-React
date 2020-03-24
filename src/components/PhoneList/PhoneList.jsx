@@ -55,7 +55,7 @@ export default class PhoneList extends Component {
                     {/*  LIST SECTION */}
                     {
                         phoneList.length > 0 ? phoneList.map((p, i) => {
-                            return (<PhoneItem key={i} phone={p}/>)
+                            return (<PhoneItem key={i} phone={p} onClick={() => this.handleClick(p)}/>)
                         }): <div className='notFound'>There were no devices found :( <a href='/' onClick={this.handleReload}>try reloading the page</a></div>
                     }
                 </div>
