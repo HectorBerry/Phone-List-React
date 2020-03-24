@@ -1,0 +1,60 @@
+#PhoneDetail {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(157deg,#17ae8e,#3c7f72);
+    text-align: center;
+    overflow: auto;
+}
+#PhoneDetail .close {
+    position: absolute;
+    left: 0;
+    padding: 1em;
+    font-size: 1.5em;
+}
+#PhoneDetail .close svg {
+    cursor: pointer;
+}
+#PhoneDetail .name {
+    color: white;
+    margin: 2.5em;
+}
+#PhoneDetail .details { 
+    padding: 0.5em;
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);}
+#PhoneDetail .details img {
+    display: block;
+    height: 15em;
+    margin: auto;
+}
+#PhoneDetail .details .description {
+    display: block;
+    padding: 0.5em;
+    font-size: 1.8em;
+}
+#PhoneDetail .details .manufacturer {
+    display: block;
+    padding: 0.3em;
+
+    font-size: 1.5em;
+}
+#PhoneDetail .details .price {
+    display: block;
+    padding: 0.3em;
+    font-size: 1.3em;
+}
+#PhoneDetail .details .title {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #3c7f72;
+}

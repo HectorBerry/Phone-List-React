@@ -1,0 +1,32 @@
+#PhoneList {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(157deg,#17ae8e,#3c7f72);
+    text-align: center;
+    overflow: auto;
+}
+#PhoneList .title {
+    padding: 4em 0;
+    text-align: center;
+    font-size: 1.9em;
+    color: white;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+#PhoneList .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+#PhoneList .list .notFound {
+    color: white;
+    font-size: 2em;
+    margin: auto;
+}
+#PhoneList .list .notFound a {
+    display: block;
+    color: #31685d;
+}
+#PhoneList .error {
+    color: red;
+}

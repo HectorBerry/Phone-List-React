@@ -1,0 +1,46 @@
+.phoneItem {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 4px;
+    flex: 1 1 5em;
+    flex-grow: 1;
+    width: 33%;
+    cursor: pointer;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+}
+.phoneItem .manufacturer {
+    display: none;
+}
+.phoneItem img {
+    display: block;
+    margin: auto;
+    height: 9em;
+}
+
+@media(max-width: 360px) {
+    .phoneItem img {
+        height: 5em;
+    }
+}
+
+
+@media(min-width: 700px) {
+    .phoneItem .manufacturer {
+        display: block;
+    }
+    .phoneItem img {
+        height: 15em;
+    }
+}
+.phoneItem .name {
+    display: block;
+    font-size: 1.5em;
+}
+.phoneItem .price {
+    display: block;
+    color: #3c7f72;
+    font-weight: bold;
+}
